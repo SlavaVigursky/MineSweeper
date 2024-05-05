@@ -1,0 +1,99 @@
+
+
+h1{
+    font-style: italic;
+    text-align: center;
+    animation: shiftColor 3s infinite;
+}
+
+body {
+    background-image: url('../img/dungeon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+
+
+#box1{
+    
+    width:fit-content;
+    border: 5px darkslategray;
+    border-style:double;
+    background: rgba(0, 0, 0, 0.65);
+    margin: auto;
+}
+
+#box2 {
+    width:fit-content;
+    margin:auto;
+}
+
+#box3 {
+    width:fit-content;
+    border: 5px darkslategray;
+    border-style:double;
+    background-color: black;
+    margin:2px auto;
+
+    position: relative;
+}
+
+.mines{
+    padding-right: 70px ;
+}
+
+.timer{
+    padding-left: 70px;
+}
+
+.difficulty{
+    padding: 7px;
+    text-align: center
+}
+
+.Beginner{
+    text-align: right;
+}
+
+div h2 .health img{
+    width: 55px;
+}
+
+#health-panel{
+
+    margin: 5px;
+    text-align: center;
+    border-bottom:  darkslategray;
+    border-bottom-style: solid;
+
+}
+
+.restart-btn img{
+    border-left: 5px darkslategray;
+    border-right: 5px darkslategray;
+    border-style:double;
+    width: 45px;
+    height: 55px;
+}
+
+.restart-btn{
+    text-align: center;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    
+}
+
+.cell img {
+    width: 35px;
+}
+
+
+@keyframes shiftColor {
+    from {color:rgba(255, 0, 0, 0.493);}
+    to {color: rgb(238, 175, 2);}
+}

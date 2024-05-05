@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MinesSweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body oncontextmenu="event.preventDefault()" onload="onInit()">
+
+    <h1>Mine Sweeper</h1>
+
+    <br>
+    <div id="box1">
+        
+        <div>
+            <h2 id="health-panel"> <span class="health"></span></h2> 
+        </div>
+
+        <div id="box2">
+        
+            <table>
+                <thead>
+                    <tr>
+                        <td class="mines"></td>
+                        <td><button class="restart-btn" onclick="restartGame()"> Restart </button></td>
+                        <td class="timer">Time: 0</td>
+                    </tr>
+                </thead>
+            </table>
+
+        </div>
+
+
+        <div id="box3">
+            <table>
+                <tbody class="board"></tbody>
+            </table>
+        </div>
+
+        <div class="difficulty">
+            <button class="Beginner" onclick="setDifficulty(4,2)">Beginner</button>
+            <button class="Intermediate" onclick="setDifficulty(8,14)">Intermediate</button>
+            <button class="Expert" onclick="setDifficulty(12,32)">Expert</button>
+        </div> 
+        
+    </div>
+    
+    <script src="js/utils.js"></script>
+    <script src="js/minesweeper.js"></script>
+    <script src="js/declarations.js"></script>
+</body>
+
+</html>
