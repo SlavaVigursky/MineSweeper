@@ -26,10 +26,15 @@ function getClassName(position) {
 	return cellClass
 }
 
-function handleKey(event) {
-    console.log(event)
+
+function getCellElement(position){
+    return document.querySelector(`.cell-${position.i}-${position.j}`)
 }
 
+function getImage(imageIdx){
+    // const elCell = getCellElement(cellPosition)
+    return `<img src="img/${imageIdx}.png">`
+}
 
 // document.body.onclick = function (e) {
 //     var isRightMB;

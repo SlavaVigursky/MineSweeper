@@ -41,11 +41,11 @@ body {
 }
 
 .mines{
-    padding-right: 70px ;
+    padding-right: 65px ;
 }
 
 .timer{
-    padding-left: 70px;
+    padding-left: 65px;
 }
 
 .difficulty{
@@ -91,6 +91,10 @@ div h2 .health img{
 .cell img {
     width: 35px;
 }
+
+/* .reveal-mind{
+    background-color: red;
+} */
 
 
 @keyframes shiftColor {
