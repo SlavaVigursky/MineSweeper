@@ -31,5 +31,4 @@ var gIsFirstLoad = true
 var gMinesCount
 var gTime
 var gCountInterval
-var gNumOfFlags
 var gMineLocations = []

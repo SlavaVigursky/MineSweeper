@@ -44,8 +44,34 @@ body {
     padding-right: 65px ;
 }
 
-.timer{
+.mines img{
+    
+    width: 30px;
+    height: 30px;
+}
+
+.flags{
     padding-left: 65px;
+}
+
+.flags img{
+    
+    width: 30px;
+    height: 30px;
+}
+
+.timer{
+    /* text-align: center;
+    /* width:fit-content;
+    border: 5px darkslategray;
+    border-style:double;
+    margin: auto;
+    padding-left: 65px; */
+
+    margin: 5px;
+    text-align: center;
+    border-bottom:  darkslategray;
+    border-bottom-style: solid;
 }
 
 .difficulty{
